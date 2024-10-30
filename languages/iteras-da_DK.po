@@ -1,0 +1,348 @@
+# ITERAS plugin
+# Copyright (C) 2015 ITERAS ApS
+# ITERAS team <team@iteras.dk>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: iteras\n"
+"Report-Msgid-Bugs-To: team@iteras.dk\n"
+"POT-Creation-Date: 2024-01-02 13:05+0100\n"
+"PO-Revision-Date: 2024-01-02 13:05+0100\n"
+"Last-Translator: Ole Laursen <olau@iteras.dk>\n"
+"Language-Team: da\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/iteras-admin.php:61
+msgid "Everybody"
+msgstr "Alle"
+
+#: admin/iteras-admin.php:67
+msgid "Redirect to subscribe landing page"
+msgstr "Omdiriger til abonnér-landingsside"
+
+#: admin/iteras-admin.php:68
+msgid "Cut text and add call-to-action box"
+msgstr "Beskær tekst og tilføj call to action-boks"
+
+#: admin/iteras-admin.php:72
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: admin/iteras-admin.php:73
+msgid "Custom"
+msgstr "Specialudviklet"
+
+#: admin/iteras-admin.php:90
+msgid "ITERAS Paywall"
+msgstr "ITERAS-paywall"
+
+#: admin/iteras-admin.php:95
+msgid "Paywall"
+msgstr "Betalingsmur"
+
+#: admin/iteras-admin.php:140
+msgid "Does not restrict visitors, everyone can see the content"
+msgstr "Begrænser ingen besøgende, alle kan se indholdet"
+
+#: admin/iteras-admin.php:141
+msgid ""
+"Content restricted to visitors who are in the subscriber database (but they "
+"are not required to have an active subscription)"
+msgstr ""
+"Indhold begrænset til besøgende i abonnentdatabasen (men de behøver ikke "
+"have et aktivt abonnement)"
+
+#: admin/iteras-admin.php:142
+msgid "Content restricted to visitors with an active subscription"
+msgstr "Indhold begrænset til besøgende i abonnentdatabasen"
+
+#: admin/iteras-admin.php:184
+msgid "Add paywall"
+msgstr "Tilføj betalingsmur"
+
+#: admin/iteras-admin.php:187
+msgid "Remove paywalls"
+msgstr "Fjern betalingsmure"
+
+#: admin/iteras-admin.php:246
+msgid "ITERAS configuration"
+msgstr "ITERAS-konfiguration"
+
+#: admin/iteras-admin.php:247
+msgid "ITERAS"
+msgstr "ITERAS"
+
+#: admin/iteras-admin.php:286
+msgid "Synchronization of paywalls from ITERAS complete"
+msgstr "Synkronisering af betalingsmure fra ITERAS gennemført"
+
+#: admin/iteras-admin.php:292
+msgid "Couldn't synchronize paywalls from ITERAS"
+msgstr "Kunne ikke synkronisere betalingsmure fra ITERAS"
+
+#: admin/iteras-admin.php:324
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: admin/views/admin.php:14
+msgid "ITERAS URL-id"
+msgstr "ITERAS URL-id"
+
+#: admin/views/admin.php:16
+msgid "e.g. sportsmanden"
+msgstr "f.eks. sportsmanden"
+
+#: admin/views/admin.php:17
+msgid ""
+"You can find your URL-id on the customer service settings page under the "
+"general settings section in the top right menu in ITERAS."
+msgstr ""
+"Du kan finde dit URL-id på i kundeservice-indstillingerne under "
+"grundindstillingerne i menuen øverst til højre i ITERAS."
+
+#: admin/views/admin.php:22
+msgid "ITERAS signing key"
+msgstr "ITERAS signeringsnøgle"
+
+#: admin/views/admin.php:24 admin/views/admin.php:32
+msgid "e.g."
+msgstr "f.eks."
+
+#: admin/views/admin.php:25
+msgid ""
+"You can find your signing key in the general settings section in the top "
+"right menu in ITERAS."
+msgstr ""
+"Du kan finde din signeringsnøgle under grundindstillingerne i menuen øverst "
+"til højre i ITERAS."
+
+#: admin/views/admin.php:30
+msgid "ITERAS API key"
+msgstr "ITERAS API-nøgle"
+
+#: admin/views/admin.php:33
+msgid ""
+"You can create an API key under integrations in the top right menu in ITERAS."
+msgstr ""
+"Du kan oprette en API-nøgle under integrationer i menuen øverst til højre i "
+"ITERAS."
+
+#: admin/views/admin.php:38
+msgid "Available paywalls"
+msgstr "Tilgængelige betalingsmure"
+
+#: admin/views/admin.php:42
+msgid "No paywalls available"
+msgstr "Ingen betalingsmure tilgængelig"
+
+#: admin/views/admin.php:52
+msgid "Synchronize"
+msgstr "Synkronisér"
+
+#: admin/views/admin.php:53
+msgid ""
+"You can configure paywalls in ITERAS in the paywalls section under "
+"integrations in the top right menu in ITERAS. Afterwards click the "
+"synchronize button here."
+msgstr ""
+"Du kan konfigurere betalingsmure i ITERAS i sektionen for betalingsmure "
+"under integrationer i menuen øverst til højre i ITERAS. Klik på synkronisér-"
+"knappen her bagefter."
+
+#: admin/views/admin.php:58
+msgid "Default paywall access"
+msgstr "Forvalgt paywall-adgang"
+
+#: admin/views/admin.php:66
+msgid "Default paywall access for new posts."
+msgstr "Betalingsmur-indstilling som nye indlæg og sider får som forvalg."
+
+#: admin/views/admin.php:71
+msgid "Access restriction"
+msgstr "Adgangsbegrænsning"
+
+#: admin/views/admin.php:79
+msgid "How users will be greeted on an article they don't have access to."
+msgstr ""
+"Hvordan besøgende bliver modtaget på en artikel som de ikke har adgang til."
+
+#: admin/views/admin.php:84
+msgid "Subscribe landing page"
+msgstr "Abonnér-landingsside"
+
+#: admin/views/admin.php:86
+msgid "e.g. /?page_id=1"
+msgstr "f.eks. /?page_id=1"
+
+#: admin/views/admin.php:87
+msgid ""
+"URL to the landing page for logging in or becoming a <b>paying subscriber</"
+"b>."
+msgstr ""
+"URL for landingsside til at logge ind eller blive en <b>betalende abonnent</"
+"b>."
+
+#: admin/views/admin.php:92
+msgid "User landing page"
+msgstr "Bruger-landingsside"
+
+#: admin/views/admin.php:94
+msgid "e.g. /?page_id=2"
+msgstr "f.eks. /?page_id=2"
+
+#: admin/views/admin.php:95
+msgid ""
+"URL to the landing page for logging in or registering as a <b>user</b>. The "
+"subscribe and user landing page can point to the same Wordpress page."
+msgstr ""
+"URL for landingsside til at logge ind eller registrere sig som en <b>bruger</"
+"b>. Abonnér- og bruger-landingssiderne kan pege på den samme Wordpress-side."
+
+#: admin/views/admin.php:100
+msgid "Cut text at"
+msgstr "Beskær tekst ved"
+
+#: admin/views/admin.php:102
+msgid "characters"
+msgstr "tegn"
+
+#: admin/views/admin.php:102
+msgid "e.g. 30"
+msgstr "f.eks. 30"
+
+#: admin/views/admin.php:107
+msgid "Call-to-action content"
+msgstr "Call to action-indhold"
+
+#: admin/views/admin.php:110
+msgid ""
+"Present ordering offers and a login option. If you link to separate ordering "
+"and login pages, run the URL through the shortcode [iteras-return-to-page], "
+"e.g. &lta href=\"[iteras-return-to-page url='/?page_id=2']&gt;sign up here!"
+"&lt;/a&gt;\" to let the visitor return to the same page after ordering or "
+"logging in."
+msgstr ""
+"Præsenter bestillingstilbud og en logind-mulighed. Hvis du linker til "
+"separate bestillings- og logind-sider, så kør URL'en gennem [iteras-return-"
+"to-page], f.eks. &lta href=\"[iteras-return-to-page url='/?page_id=2']&gt;"
+"bestil her!&lt;/a&gt;\" for at lade den besøgende komme tilbage til samme "
+"side efter at have bestilt eller logget ind."
+
+#: admin/views/admin.php:115
+msgid "Validation method"
+msgstr "Verifikationsmåde"
+
+#: admin/views/admin.php:117
+msgid "Enable server-side validation of access pass cookie"
+msgstr "Aktiver serverkontrol af adgangstegn-cookie"
+
+#: admin/views/admin.php:120
+msgid ""
+"With server-side validation, the ITERAS API key will be used to check the "
+"signature of access pass cookies. This effectively prevents leaking "
+"paywalled content even for visitors trying to circumvent the paywall. "
+"However, in some cases a caching front-end service may strip the cookie "
+"before it reaches the WordPress server or only allow it through for logged-"
+"in WordPress users. In case it's not possible to reconfigure the service, "
+"you can disable server-side validation."
+msgstr ""
+"Med serverkontrol aktiveret bliver ITERAS API-nøglen brugt til at "
+"kontrollere om signaturen på adgangstegn-cookies er ægte. Det forhindrer "
+"effektivt at indhold bag betalingsmuren bliver lækket, selv for besøgende "
+"som forsøger at omgå betalingsmuren. I nogle tilfælde sidder der dog en "
+"cache-service forrest som fjerner cookien før den når WordPress-serveren "
+"eller kun lader den komme igennem for WordPress-brugere der er logget ind. "
+"Hvis det ikke er muligt at omkonfigurere sådan en service, kan du deaktivere "
+"serverkontrol."
+
+#: admin/views/admin.php:125
+msgid "Paywall integration method"
+msgstr "Integrationsmåde for betalingsmur"
+
+#: admin/views/admin.php:133
+msgid ""
+"For custom integration use either <code>[iteras-paywall-content]...[/iteras-"
+"paywall-content]</code> shortcode or call the API function <code>Iteras::"
+"get_instance().potentially_paywall_content(...)</code>."
+msgstr ""
+"Til specialudviklet integration brug enten <code>[iteras-paywall-content]..."
+"[/iteras-paywall-content]</code> shortcode eller kald API-funktionen "
+"<code>Iteras::get_instance().potentially_paywall_content(...)</code>."
+
+#: admin/views/admin.php:145
+msgid ""
+"For more information about the ITERAS API check out the <a target=\"_blank\" "
+"href=\"https://app.iteras.dk/api/\">API documentation</a>."
+msgstr ""
+"For flere oplysninger om ITERAS API'et, kig i <a target=\"_blank\" "
+"href=\"https://app.iteras.dk/api/\">API-dokumentationen</a>."
+
+#: admin/views/post-meta-box.php:8
+msgid ""
+"The ITERAS plugin has not been configured properly. Please go to the <a "
+"href=\"%url%\">settings page</a> and complete the configuration."
+msgstr ""
+"ITERAS-indstillingerne er ikke blevet udfyldt korrekt. Gå til <a\n"
+"href='%url%'>siden med indstillinger</a> for at rette dem."
+
+#: admin/views/post-meta-box.php:13
+msgid "Only available for"
+msgstr "Kun tilgængelig for"
+
+#: admin/views/post-meta-box.php:23
+#, php-format
+msgid ""
+"The ITERAS settings haven't been filled in properly. Go to the <a "
+"href='%url%'>settings page</a> to correct them."
+msgstr ""
+"ITERAS-indstillingerne er ikke blevet udfyldt korrekt. Gå til <a "
+"href='%url%'>siden med indstillinger</a> for at rette dem."
+
+#: public/iteras-public.php:429 public/iteras-public.php:604
+msgid "This content is paywalled"
+msgstr "Dette indhold er bag betalingsmur"
+
+#: public/iteras-public.php:429 public/iteras-public.php:611
+#: public/iteras-public.php:659
+msgid "You are seeing the content because you are logged into WordPress admin."
+msgstr "Du ser indholdet da du er logget ind i WordPress admin."
+
+#: public/iteras-public.php:438
+msgid "ITERAS plugin improperly configured. Paywall box content is missing"
+msgstr ""
+"ITERAS-plugin er ikke konfigureret rigtigt. Call to action-indhold mangler."
+
+#: public/iteras-public.php:585
+msgid "You need to be logged in to see this content"
+msgstr "Du skal være logget ind for at se indholdet"
+
+#: public/iteras-public.php:608
+msgid "paywallid not declared"
+msgstr "paywallid ikke udfyldt"
+
+#~ msgid "e.g. drurhphapaikr5fcywk158n93ghat0vz"
+#~ msgstr "f.eks. drurhphapaikr5fcywk158n93ghat0vz"
+
+#~ msgid "Paying subscribers"
+#~ msgstr "Betalende abonnenter"
+
+#~ msgid "ITERAS profile name"
+#~ msgstr "ITERAS-profilnavn"
+
+#~ msgid "ITERAS paywall ID"
+#~ msgstr "ITERAS-paywall-id"
+
+#~ msgid "e.g. CEru2uMu"
+#~ msgstr "f.eks. CEru2uMu"
+
+#~ msgid ""
+#~ "You can find your ITERAS paywall ID on the publication settings page in "
+#~ "the paywall section:"
+#~ msgstr ""
+#~ "Du kan finde dit ITERAS-paywall-id på siden med publikationsindstillinger "
+#~ "under betalingsmur-sektionen:"
+
+#~ msgid "Who should be able to access this post?"
+#~ msgstr "Hvem skal have adgang til dette indlæg?"

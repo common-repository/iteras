@@ -1,0 +1,35 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+#iteras-paywall-box .attention-box {
+  padding: 10px;
+  background-color: #a00;
+  color: #fff;
+}
+
+#iteras-paywall-box .attention-box a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#iteras-paywall-box b {
+  margin: 4px 0;
+  display: inline-block;
+}
+
+.paywall-list {
+  margin: 5px 0;
+}
+
+.paywall-list li {
+  border-left: 3px solid #777;
+  padding-left: 6px;
+}
+
+.muted {
+  color: #777;
+}
+
+table tr .column-iteras-paywalled {
+  width: 60px;
+  text-align: center;
+}
+

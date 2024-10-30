@@ -1,0 +1,46 @@
+=== Development steps for this plugin ===
+
+== Setting up a fresh Wordpress ==
+
+Download and setup latest Wordpress and SQLite plugin:
+
+   wget https://wordpress.org/latest.tar.gz && tar zxf latest.tar.gz && rm latest.tar.gz && RANDOM_STRING=`LC_ALL=C cat /dev/urandom | LC_ALL=C tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1` sed -e 's/database_name_here/test.db/g' -e "s/put your unique phrase here/${RANDOM_STRING}/g" -e "s/'WP_DEBUG', false/'WP_DEBUG', true/" < wordpress/wp-config-sample.php > wordpress/wp-config.php
+
+   cd wordpress/wp-content/plugins/ && git clone https://github.com/aaemnnosttv/wp-sqlite-db.git && cp wp-sqlite-db/src/db.php ../ && cd ../../../
+
+Enable debugging in wp-config.php, the debug log is available in wp-content/debug.log:
+
+   define( 'WP_DEBUG', true );
+   define( 'WP_DEBUG_LOG', true );
+   define( 'WP_DEBUG_DISPLAY', false ); // only log to file
+
+Symlink the Iteras plugin:
+
+   cd wordpress/wp-content/plugins && ln -s ../../../ iteras
+
+Make sure php-cli and php-sqlite3 is installed, then:
+
+   php -S localhost:8000
+
+and go to this server in the browser and follow the instructions. Then go to the plugins settings, search for Iteras and activate it.
+
+== Translation ==
+
+Extracting and compiling new translation messages (rerun after translation):
+
+   xgettext --indent --default-domain=iteras --language=PHP --keyword=__ --keyword=_e --sort-by-file --package-name=iteras --package-version=0.3 --msgid-bugs-address="team@iteras.dk" --output=languages/iteras-da_DK.pot `svn status -v -q | sed -e 's/  */ /g' | cut -d ' ' -f 5 | grep '.php$'` && msgmerge -o languages/iteras-da_DK.pox languages/iteras-da_DK.po languages/iteras-da_DK.pot && mv languages/iteras-da_DK.pox languages/iteras-da_DK.po && msgfmt -o languages/iteras-da_DK.mo languages/iteras-da_DK.po
+
+== Releasing ==
+
+Update version number in:
+
+ * README.txt
+ * iteras.php
+ * public/iteras-public.php
+
+Do the release with SVN:
+
+  cd ..
+  svn commit -m 'New release' trunk
+  svn cp trunk tags/<version>
+  svn commit -m 'New release' tags
